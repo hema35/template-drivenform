@@ -6,10 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeroFormComponent
+    HeroFormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+<nav>
+  <ul class="ul">
+    <li><a href="#Aboutus">About Us</a></li>
+    <li><a href="#Terms and Conditions">Terms and Conditions</a></li>
+    <li><a href="#Privacy">Privacy Policy</a></li>
+    <li>
+      <label for="International">International</label>
+      <select id="International" >
+      <option *ngFor="let lang of languages" [value]="lang">{{lang}}</option>
+    </select>
+    </li>
+  </ul>
+</nav>
