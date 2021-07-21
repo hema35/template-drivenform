@@ -21,4 +21,7 @@ skyDog() : Hero {
                    console.log('My hero is called ' + myHero.name);
                    return myHero;
 }
+newHero() {
+  this.model = new Hero(42, '','');
+}
 }

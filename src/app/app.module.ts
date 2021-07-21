@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +15,7 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
     BrowserModule,
     FormsModule,
     CommonModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],
